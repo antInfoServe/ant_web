@@ -1,0 +1,4 @@
+.label{
+    font-size: var(--default_font_size);
+    color: var(--default_font_color);
+}

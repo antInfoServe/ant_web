@@ -1,0 +1,6 @@
+.default_dropdown{
+    height:55px;
+    width: var(--default_inputbox_width);
+    border-radius: 10px;
+    font-size: var(--default_font_size);
+}

@@ -1,0 +1,6 @@
+.long_inputbox{
+    height:50px;
+    width: var(--long_inputbox_width);
+    border-radius: 10px;
+    font-size: var(--default_font_size);
+}

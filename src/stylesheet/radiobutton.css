@@ -1,0 +1,38 @@
+.radio_like_button_w_image {
+    opacity: .01;
+}
+
+.radio_like_button_w_image:checked+.radio_like_button_label_w_image {
+    border: 1.5px solid;
+}
+
+.radio_like_button_label_w_image {
+    display: flex;
+    gap:10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 1px 1px 1px var(--primary_color);
+}
+
+.radio_like_button_label_w_image p{
+    white-space: nowrap;
+}
+
+.radio_like_button {
+    opacity: .01;
+    height: 0px;
+    width: 0px;
+}
+
+.radio_like_button:checked+.radio_like_button_label {
+    color: var(--secondary_color);
+}
+
+.radio_like_button_label {
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}

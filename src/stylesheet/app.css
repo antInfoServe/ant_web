@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+:root {
+  --default_font_family: 'Nunito', sans-serif;
+  --default_font_color: black;
+  --default_font_size: 18px;
+  --default_line_height: 30px;
+  --default_flex_direction: row;
+  --default_flex_gap: 20px;
+  --display_content_width:40vw;
+  --long_inputbox_width:30vw;
+  --default_inputbox_width:15vw;
+  --primary_color: #2c3d50;
+  --secondary_color: #e94a5f;
+  --tertiary_color: #ffffff;
+  --font_size_big: 18px;
+  --font_size_small: 14px;
+}
+
+html {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-color: #D9EBFF;
+  font-family: var(--default_font_family);
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: var(--default_font_family);
+}
+
+h2{
+  font-family: var(--default_font_family);
+  font-size: 18px;
+}
+
+p{
+  font-family: var(--default_font_family);
+}
+
+@media only screen and (max-width: 920px) {
+  :root {
+    --default_font_family: 'Nunito', sans-serif;
+    --default_font_color: black;
+    --default_font_size: 18px;
+    --default_line_height: 25px;
+    --default_flex_direction: column;
+    --default_flex_gap: 10px;
+    --display_content_width:92vw;
+    --long_inputbox_width:90vw;
+    --default_inputbox_width:92vw;
+    --primary_color: #2c3d50;
+    --secondary_color: #e94a5f;
+    --tertiary_color: #ffffff;
+    --h1_size: 21px;
+    --font_size_big: 14px;
+    --font_size_small: 10px;
+  }
+
+  html {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+
+  body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    background-color: #D9EBFF;
+    font-family: var(--default_font_family);
+    overflow-x: hidden;
+  }
+
+  h1 {
+    font-family: var(--default_font_family);
+  }
+
+  h2{
+    font-family: var(--default_font_family);
+    font-size: 18px;
+  }
+  
+  p{
+    font-family: var(--default_font_family);
+  }
+}
+
+@import "link.css";
+@import "box.css";
+@import "button.css";
+@import "image.css";
+@import "text.css";
+@import "card.css";
+@import "radiobutton.css";
+@import "input.css";
+@import "dropdown.css";
+@import "loader.css"

@@ -1,0 +1,60 @@
+.default_button{
+    height:55px;
+    width: var(--default_inputbox_width);
+    font-size: var(--default_font_size);
+    color: var(--tertiary_color);
+    background-color: var(--primary_color);
+    border-radius: 10px;
+}
+
+.default_button:hover{
+    cursor: pointer;
+}
+
+.default_button_outline{
+    height:55px;
+    width: var(--default_inputbox_width);
+    font-size: var(--default_font_size);
+    color: var(--primary_color);
+    background-color: var(--tertiary_color);
+    border: 1px solid var(--primary_color);
+    border-radius: 10px;
+}
+
+.default_button_outline:hover{
+    cursor: pointer;
+}
+
+.default_button_w_icon{
+    height: 55px;
+    width: fit-content;
+    white-space: nowrap;
+    background-color: var(--tertiary_color);
+    font-size: var(--default_font_size);
+    color: var(--primary_color);
+    border-radius: 10px;
+}
+
+.default_button_w_icon img{
+    margin-right: 10px;
+}
+
+.default_button_w_icon:hover{
+    cursor: pointer;
+}
+
+.round_button_w_icon{
+    height: 60px;
+    width: 60px;
+    background-color: var(--primary_color);
+    border-radius: 30px;
+}
+
+.button_sq{
+    height: 55px;
+    width: 55px;
+    background-color: var(--primary_color);
+    font-size: var(--default_font_size);
+    border: 1px solid var(--primary_color);
+    border-radius: 10px;
+}

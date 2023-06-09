@@ -1,0 +1,74 @@
+.box_navbar{
+    z-index: 3;
+    position: fixed;
+    top:0px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 2px 0px 2px var(--primary_color);
+    border-radius: 0px 0px 15px 15px;
+}
+
+.box_choicebar{
+    z-index:2;
+    display: flex;
+    position: relative;
+    top:70px;
+    width: 100vw;
+    gap:10px;
+    height: 100px;
+    margin: 15px 25px 0px 25px;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.box_inputbar{
+    z-index: 1;
+    position: relative;
+    display: flex;
+    flex-direction: var(--default_flex_direction);
+    gap: var(--default_flex_gap);
+    top: 70px;
+    width: 100vw;
+    padding: 15px 25px 0px 25px;
+}
+
+.box_input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box_content_display{
+    width: var(--display_content_width);
+    position: relative;
+    margin-top: 100px;
+    padding: 0px 25px 0px 25px;
+    overflow-y:scroll;
+}
+
+.page_bottom{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right:20px
+}
+
+.box_search_result{
+    position: absolute;
+    margin-top: 10px;
+    padding: 10px 9px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    width: var(--long_inputbox_width);
+    border-radius: 10px;
+    font-size: var(--default_font_size);
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 150px;
+    background-color: white;
+    box-shadow: 1px 1px 1px var(--primary_color);
+}
+
+.box_search_value{
+    padding: 10px;
+}
